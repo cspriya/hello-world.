@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="45160355_test(failed)">
+    <classes>
+      <class name="goal.MyLearn.Assignments.SelendroidApp">
+        <methods>
+          <include name="clickBrowserTabAndFillFormPage"/>
+          <include name="launchApp"/>
+          <include name="reportGeneration"/>
+          <include name="closeAppiumDriver"/>
+          <include name="genearteReport"/>
+        </methods>
+      </class> <!-- goal.MyLearn.Assignments.SelendroidApp -->
+    </classes>
+  </test> <!-- 45160355_test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
